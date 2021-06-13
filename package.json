@@ -10,7 +10,8 @@
     "cdk": "cdk",
     "synth": "cdk synth",
     "deploy": "cdk deploy",
-    "destroy": "cdk destroy"
+    "destroy": "cdk destroy",
+    "boostrap": "cdk bootstrap aws://006917775159/eu-west-1"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.108.1",
@@ -30,6 +31,8 @@
     "@aws-cdk/aws-ecs": "^1.108.1",
     "@aws-cdk/aws-ecs-patterns": "^1.108.1",
     "@aws-cdk/aws-elasticloadbalancingv2": "^1.108.1",
+    "@aws-cdk/aws-s3": "^1.108.1",
+    "@aws-cdk/aws-s3-deployment": "^1.108.1",
     "@aws-cdk/core": "1.108.1",
     "dotenv": "^10.0.0",
     "source-map-support": "^0.5.16"
