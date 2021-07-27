@@ -10,8 +10,7 @@
     "cdk": "cdk",
     "synth": "cdk synth",
     "deploy": "cdk deploy",
-    "destroy": "cdk destroy",
-    "boostrap": "cdk bootstrap aws://006917775159/eu-west-1"
+    "destroy": "cdk destroy"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.108.1",
